@@ -1,0 +1,106 @@
+.news {
+  width: 90%;
+  margin: auto;
+  background: white;
+  padding: 10px 10px;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  border-radius: 10px;
+  box-sizing: content-box;
+  &__bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+    &-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-img {
+        width: 50px;
+        height: 50px;
+        padding: 0 20px;
+      }
+      &-name {
+        font-size: 30px;
+        color: rgb(124, 124, 124);
+        font-weight: bold;
+      }
+    }
+    &-tips {
+      font-size: 27px;
+      color: rgb(180, 180, 180);
+      font-weight: bold;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2px 10px;
+      box-sizing: content-box;
+      &-first {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        &-img {
+          height: 100%;
+          width: 100%;
+          border-radius: 2px;
+        }
+        &-name {
+          height: 50px;
+          position: relative;
+          top: -45px;
+          background: rgba(0, 0, 0, 0.164);
+          color: white;
+          font-size: 30px;
+        }
+      }
+      &-normal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 160px;
+        padding: 2px 10px;
+        box-sizing: content-box;
+        overflow: hidden;
+        &-img {
+          height: 100%;
+          flex: 1;
+          border-radius: 2px;
+        }
+        &-content {
+          flex: 2;
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          align-content: space-around;
+          margin-left: 20px;
+          &-name {
+            font-size: 30px;
+            color: rgb(124, 124, 124);
+            display: flex;
+          }
+          &-info {
+            width: 45%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: lightgray;
+            font-size: 25px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}

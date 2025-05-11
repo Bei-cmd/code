@@ -1,0 +1,67 @@
+.List {
+  background: rgba(235, 235, 235, 0.158);
+  display: flex;
+  flex-direction: column-reverse;
+  .List__item {
+    position: relative;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #eeeeee;
+    overflow: hidden;
+    &-data {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      &-content {
+        color: rgb(136, 136, 136);
+        text-align: center;
+        width: 80%;
+        font-size: 35px;
+        line-height: 2;
+        letter-spacing: 1.3px;
+        margin-top: 30px;
+        margin: auto;
+      }
+      &-hotIcon {
+        width: 40px;
+        height: 40px;
+      }
+      &-info {
+        margin: 40px 0;
+        padding: 10px 20px;
+      }
+      &-user {
+        padding: 10px 20px;
+        color: rgb(170, 167, 140);
+        font-size: 30px;
+        height: 50px;
+      }
+      &-time {
+        padding: 10px 20px;
+        color: rgb(175, 154, 154);
+        font-size: 30px;
+        height: 50px;
+      }
+    }
+    &-img {
+      position: relative;
+      top: 0;
+      height: 400px;
+      width: 100%;
+    }
+    &-end {
+      text-align: center;
+      margin-top: 70px;
+      margin-bottom: 30px;
+      color: #afafaf;
+      font-size: 30px;
+    }
+  }
+}

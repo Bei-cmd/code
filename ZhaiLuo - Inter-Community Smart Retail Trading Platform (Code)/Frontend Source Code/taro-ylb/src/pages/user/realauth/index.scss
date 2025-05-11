@@ -1,0 +1,36 @@
+@import "@styles/theme.scss";
+.realAuth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.realAuth_list {
+  width: 80%;
+  height: 90%;
+}
+
+.realAuth_item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 50px 50px;
+  border-bottom: 1px solid $primary-color;
+  font-size: 35px;
+  color: $text-color-light;
+  &-column {
+    font-weight: 700;
+    color: $text-color;
+  }
+}
+
+.realAuth__change {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: #f3b340;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

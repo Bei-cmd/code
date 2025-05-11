@@ -1,0 +1,33 @@
+@import "@styles/theme.scss";
+
+.cate-menu {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cate-menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 50px;
+  border: 0 solid #ffffff;
+  border-left-width: 6px;
+
+  &--active {
+    border-bottom-color: $primary-color;
+  }
+
+  &-name {
+    margin-left: -6px;
+    width: 150px;
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+
+    &--active {
+      color: $primary-color;
+    }
+  }
+}

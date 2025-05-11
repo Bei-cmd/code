@@ -1,0 +1,19 @@
+.community {
+  &__addIcon {
+    position: fixed;
+    height: 90px;
+    width: 90px;
+    top: 90%;
+    left: 85%;
+  }
+}
+.community_checkBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  font-size: 35px;
+  color: rgb(66, 66, 66);
+  font-weight: 700;
+}

@@ -1,0 +1,32 @@
+.List .List__item {
+  position: relative;
+  height: 700px;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 0 15px #eeeeee;
+  overflow: hidden;
+}
+.List .List__item-data {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.List .List__item-img {
+  position: relative;
+  top: 0;
+  height: 400px;
+  width: 100%;
+}
+.List .List__item-end {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #afafaf;
+  font-size: 30px;
+}

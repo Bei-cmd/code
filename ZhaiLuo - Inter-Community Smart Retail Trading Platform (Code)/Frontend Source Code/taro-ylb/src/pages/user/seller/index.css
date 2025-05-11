@@ -1,0 +1,62 @@
+.Seller__list {
+  display: flex;
+  margin: 30px 0;
+  margin-left: 5%;
+}
+.Seller__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 280px;
+}
+.Seller__item-img {
+  max-height: 280px;
+  max-width: 280px;
+  border-radius: 10px;
+}
+.Seller__item_data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.Seller__item_data-name {
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  padding: 15px 0;
+}
+.Seller__item_data-tipsNumber {
+  color: #818181;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.Seller__item_data-price {
+  color: #ee1414;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 15px;
+}
+.Seller__item_data-set {
+  color: #585858;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-left: 70%;
+  margin-top: 25px;
+}
+.Seller__title {
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #5f5f5f;
+}
+.Seller__title-active {
+  color: #f3b340;
+}
+.Seller__title-normal {
+  padding-left: 30px;
+}
